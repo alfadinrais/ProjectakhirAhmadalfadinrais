@@ -1,2 +1,2 @@
-rootProject.name = "Racana"
+rootProject.name = "Management Keanggotaan"
 include ':app'
