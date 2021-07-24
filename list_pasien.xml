@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".Antrian">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="3dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/detail_namaPasien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Nama Pasien"
+            android:textColor="#356C73"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detail_alamatPasien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Alamat Pasien"
+            android:textSize="20sp"
+            android:textColor="#356C73"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detail_jk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="20sp"
+            android:textColor="#356C73"
+            android:text="Jenis Kelamin"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detail_poli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Poli Tujuan"
+            android:textColor="#356C73"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detail_bayar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="20sp"
+            android:textColor="#356C73"
+            android:text="Pembayaran"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

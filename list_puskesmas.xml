@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="4dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="5dp"
+    android:id="@+id/data_row"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="3dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:scaleType="centerCrop"
+            android:background="#FFAA3A"/>
+        <TextView
+            android:id="@+id/namapus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Puskesmas"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#407FB1"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
